@@ -1,0 +1,104 @@
+/* Define a fonte, cor de fundo e cor do texto da página inteira */
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #222222;
+    color: #ffffff;
+    width: 100vw;
+}
+
+/* Estilo do título principal */
+h1{
+    font-weight:200;
+}
+
+/* Define a altura das linhas dos títulos */
+h1, h2 {
+    line-height: 1;
+}
+
+/* Container principal centralizado */
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Área superior onde fica o título e o menu */
+header{
+    display: flex;
+    width: 100vw;
+}
+
+/* Lado esquerdo com o texto “Marketing Criativo” */
+.cabecalho{
+    width: 30%;
+}
+
+/* Lado direito onde fica o menu */
+.menuContainer{
+    width: 50%;
+}
+
+/* Área principal da página (texto + imagem) */
+main{
+    display: flex;
+}
+
+/* Menu com itens alinhados */
+.menu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+}
+
+/* Cor roxa usada para destaque */
+span{
+    color: #840ec9;
+}
+
+/* Botão "Já tem conta?" */
+.conta{
+    border: 2px solid #840ec9;
+    padding: 8px 16px;
+    border-radius: 9px;
+}
+
+/* Estilo dos links */
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Estilo dos inputs do formulário */
+input{
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+/* Inputs e botões com bordas arredondadas */
+input, button{
+    border: none;
+    border-radius: 20px;
+    padding: 15px 15px;
+}
+
+/* Estilo do botão */
+button{
+    background-color: #840ec9;
+    width: 100px;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+/* Tamanho maior para o subtítulo */
+h2{
+    font-size: 45px;
+}
+
+/* Formulário organizado em coluna */
+form{
+    display: flex;
+    flex-direction: column;
+}
